@@ -11,7 +11,7 @@ public class Exception {
         try {
             for (int i = 0; i < a.length; i++) {
                 for (int j = 0; j < a.length; j++) {
-                    a[i][j] = String.valueOf((int) (Math.random() * 100));
+                    a[i][j] = String.valueOf((int) (Math.random() * 10));
                 }
             }
         } catch (ArrayIndexOutOfBoundsException e) {
