@@ -19,8 +19,6 @@ public class SetWords {
         for (String word : set) {
             map.put(word, map.getOrDefault(word, 0) + 1);
         }
-        System.out.println(map);
-        System.out.println("");
-
+        System.out.println("Количество каждого из животных:" +map);
         }
     }
